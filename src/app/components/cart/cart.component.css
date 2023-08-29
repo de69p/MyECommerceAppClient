@@ -1,0 +1,44 @@
+.cart-item {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.price, .total-price {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+  margin-left: 10px;
+}
